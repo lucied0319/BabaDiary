@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.goddiary2.ScrollingActivity">
+    <item
+        android:id="@+id/changeImage"
+        android:orderInCategory="100"
+        android:title="メイン画像変更"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/changeTitle"
+        android:orderInCategory="200"
+        android:title="日記名変更"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/changeTitleColor"
+    android:orderInCategory="300"
+    android:title="日記名の色変更"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/changeTitleInit"
+        android:orderInCategory="400"
+        android:title="初期設定に戻す"
+        app:showAsAction="never" />
+</menu>

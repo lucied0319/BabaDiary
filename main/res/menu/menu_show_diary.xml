@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.goddiary2.ShowDiaryActivity">
+    <item
+        android:id="@+id/changeDateColor"
+        android:orderInCategory="100"
+        android:title="タイトルの色変更"
+        app:showAsAction="never" />
+</menu>
